@@ -8,9 +8,9 @@ import com.twilio.type.PhoneNumber;
 
 @Service
 public class TwilioService {
-    private static final String TWILIO_ACCOUNT_SID = "AC05eb970ad07d185d8965c916de8b3a3d";
-    private static final String TWILIO_AUTH_TOKEN = "3ada8b22bcc30230ea074a2047dd9eca";
-    private static final String TWILIO_PHONE_NUMBER = "+15076773270";
+    private static final String TWILIO_ACCOUNT_SID = "";
+    private static final String TWILIO_AUTH_TOKEN = "";
+    private static final String TWILIO_PHONE_NUMBER = "";
 
     public void sendSms(String toPhoneNumber, String message) {
         Twilio.init(TWILIO_ACCOUNT_SID, TWILIO_AUTH_TOKEN);
